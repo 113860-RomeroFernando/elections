@@ -1,0 +1,169 @@
+{
+  "localities": [
+    {
+      "id": 1,
+      "name": "La Plata",
+      "province_id": 1,
+      "votes": 500000
+    },
+    {
+      "id": 2,
+      "name": "Mar del Plata",
+      "province_id": 1,
+      "votes": 300000
+    },
+    {
+      "id": 3,
+      "name": "Bahía Blanca",
+      "province_id": 1,
+      "votes": 200000
+    },
+    {
+      "id": 4,
+      "name": "Córdoba Capital",
+      "province_id": 2,
+      "votes": 450000
+    },
+    {
+      "id": 5,
+      "name": "Villa María",
+      "province_id": 2,
+      "votes": 100000
+    },
+    {
+      "id": 6,
+      "name": "Río Cuarto",
+      "province_id": 2,
+      "votes": 150000
+    },
+    {
+      "id": 7,
+      "name": "Rosario",
+      "province_id": 3,
+      "votes": 200000
+    },
+    {
+      "id": 8,
+      "name": "Santa Fe Capital",
+      "province_id": 3,
+      "votes": 250000
+    },
+    {
+      "id": 9,
+      "name": "Venado Tuerto",
+      "province_id": 3,
+      "votes": 100000
+    }
+  ],
+  "provinces": [
+    {
+      "id": 1,
+      "name": "Buenos Aires"
+    },
+    {
+      "id": 2,
+      "name": "Córdoba"
+    },
+    {
+      "id": 3,
+      "name": "Santa Fe"
+    }
+  ],
+  "elections": [
+    {
+      "id": 1,
+      "date": "2023-10-15",
+      "votes": 1500000,
+      "localities": [
+        {
+          "locality_id": 1,
+          "votes": 500000
+        },
+        {
+          "locality_id": 2,
+          "votes": 300000
+        },
+        {
+          "locality_id": 3,
+          "votes": 200000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2023-10-15",
+      "votes": 950000,
+      "localities": [
+        {
+          "locality_id": 4,
+          "votes": 450000
+        },
+        {
+          "locality_id": 5,
+          "votes": 100000
+        },
+        {
+          "locality_id": 6,
+          "votes": 150000
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2023-10-15",
+      "votes": 450000,
+      "localities": [
+        {
+          "locality_id": 7,
+          "votes": 200000
+        },
+        {
+          "locality_id": 8,
+          "votes": 250000
+        },
+        {
+          "locality_id": 9,
+          "votes": 100000
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Candidato A",
+      "party": "Partido 1",
+      "current_polls": 30
+    },
+    {
+      "id": 2,
+      "name": "Candidato B",
+      "party": "Partido 2",
+      "current_polls": 25
+    },
+    {
+      "id": 3,
+      "name": "Candidato C",
+      "party": "Partido 3",
+      "current_polls": 20
+    },
+    {
+      "id": 4,
+      "name": "Candidato D",
+      "party": "Partido 4",
+      "current_polls": 15
+    },
+    {
+      "id": 5,
+      "name": "Candidato E",
+      "party": "Partido 5",
+      "current_polls": 10
+    },
+    {
+      "id": 6,
+      "name": "Candidato F",
+      "party": "Partido 6",
+      "current_polls": 5
+    }
+  ]
+}
