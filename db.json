@@ -60,22 +60,25 @@
       "name": "Santa Fe"
     }
   ],
-  "elections": [
+ "elections": [
     {
       "id": 1,
       "date": "2023-10-15",
       "localities": [
         {
           "locality_id": 1,
-          "votes": 500000
+          "votes": 500000,
+          "candidate_id": 1
         },
         {
           "locality_id": 2,
-          "votes": 300000
+          "votes": 300000,
+          "candidate_id": 2
         },
         {
           "locality_id": 3,
-          "votes": 200000
+          "votes": 200000,
+          "candidate_id": 3
         }
       ]
     },
@@ -85,15 +88,18 @@
       "localities": [
         {
           "locality_id": 4,
-          "votes": 450000
+          "votes": 450000,
+          "candidate_id": 4
         },
         {
           "locality_id": 5,
-          "votes": 100000
+          "votes": 100000,
+          "candidate_id": 5
         },
         {
           "locality_id": 6,
-          "votes": 150000
+          "votes": 150000,
+          "candidate_id": 6
         }
       ]
     },
@@ -103,15 +109,18 @@
       "localities": [
         {
           "locality_id": 7,
-          "votes": 200000
+          "votes": 200000,
+          "candidate_id": 1
         },
         {
           "locality_id": 8,
-          "votes": 250000
+          "votes": 250000,
+          "candidate_id": 2
         },
         {
           "locality_id": 9,
-          "votes": 100000
+          "votes": 100000,
+          "candidate_id": 3
         }
       ]
     }
